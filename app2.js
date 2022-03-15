@@ -44,8 +44,7 @@ function addTodo(event) {
   todoList.appendChild(newDiv);
 
   //local storage
-  allData = JSON.parse(localStorage.getItem("storage"));
-  localStorage.setItem("storage", JSON.stringify(allData));
+ 
   const data = { text: todoInput.value, check: 0 };
   allData.push(data);
   localStorage.setItem("storage", JSON.stringify(allData));
