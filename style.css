@@ -75,3 +75,13 @@ form{
     border-radius: 0 .5rem .5rem 0;
 }
 
+@media (min-width: 40em){
+    body{
+        padding:  10vmin 30vmin;
+    }
+}
+@media (min-width: 70em){
+    body{
+        padding:  10vmin 70vmin;
+    }
+}
